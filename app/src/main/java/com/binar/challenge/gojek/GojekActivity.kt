@@ -1,7 +1,8 @@
-package com.binar.challengechaptertwo.gojek
+package com.binar.challenge.gojek
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.binar.challenge.R
 
 class GojekActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

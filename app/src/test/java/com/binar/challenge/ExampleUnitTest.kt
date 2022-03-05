@@ -1,4 +1,4 @@
-package com.binar.challengechaptertwo
+package com.binar.challenge
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.binar.challengechaptertwo
+package com.binar.challenge
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.binar.challengechaptertwo", appContext.packageName)
+        assertEquals("com.binar.challenge", appContext.packageName)
     }
 }
