@@ -38,6 +38,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,13 +62,12 @@
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="16dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:srcCompat="@drawable/ic_go_ride" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -80,13 +80,12 @@
 
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="46dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="38dp"
                     app:layout_constraintStart_toEndOf="@+id/imageView4"
                     app:layout_constraintTop_toTopOf="@+id/imageView4"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:srcCompat="@drawable/ic_go_car" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -99,13 +98,14 @@
 
                 <ImageView
                     android:id="@+id/imageView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="46dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="38dp"
+                    android:layout_marginEnd="38dp"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toTopOf="@+id/imageView5"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:srcCompat="@drawable/ic_go_food" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -118,13 +118,12 @@
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="32dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/imageView6"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:srcCompat="@drawable/ic_go_send" />
 
                 <TextView
                     android:id="@+id/textView7"
@@ -137,14 +136,13 @@
 
                 <ImageView
                     android:id="@+id/imageView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="26dp"
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
                     app:layout_constraintTop_toBottomOf="@+id/textView4"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:srcCompat="@drawable/ic_go_mart" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -157,14 +155,12 @@
 
                 <ImageView
                     android:id="@+id/imageView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
-                    app:layout_constraintTop_toBottomOf="@+id/textView5"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:layout_constraintTop_toTopOf="@+id/imageView8"
+                    app:srcCompat="@drawable/ic_go_pulsa" />
 
                 <TextView
                     android:id="@+id/textView9"
@@ -177,14 +173,12 @@
 
                 <ImageView
                     android:id="@+id/imageView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
                     app:layout_constraintEnd_toEndOf="@+id/imageView6"
                     app:layout_constraintStart_toStartOf="@+id/imageView6"
-                    app:layout_constraintTop_toBottomOf="@+id/textView6"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:layout_constraintTop_toTopOf="@+id/imageView9"
+                    app:srcCompat="@drawable/ic_check_in" />
 
                 <TextView
                     android:id="@+id/textView10"
@@ -197,14 +191,13 @@
 
                 <ImageView
                     android:id="@+id/imageView11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView10"
                     app:layout_constraintEnd_toEndOf="@+id/imageView7"
                     app:layout_constraintStart_toStartOf="@+id/imageView7"
-                    app:layout_constraintTop_toBottomOf="@+id/textView7"
-                    app:srcCompat="@drawable/ic_profile"
-                    app:tint="@color/green" />
+                    app:layout_constraintTop_toTopOf="@+id/imageView10"
+                    app:srcCompat="@drawable/ic_more" />
 
                 <TextView
                     android:id="@+id/textView11"
@@ -213,7 +206,7 @@
                     android:text="Lainnya"
                     app:layout_constraintEnd_toEndOf="@+id/imageView11"
                     app:layout_constraintStart_toStartOf="@+id/imageView11"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+                    app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -223,7 +216,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="18dp"
                 android:layout_marginEnd="16dp"
                 app:cardCornerRadius="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -237,8 +230,8 @@
 
                     <ImageView
                         android:id="@+id/imageView12"
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
+                        android:layout_width="52dp"
+                        android:layout_height="52dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="8dp"
@@ -322,7 +315,7 @@
                         android:id="@+id/imageView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="48dp"
+                        android:layout_marginEnd="52dp"
                         app:layout_constraintEnd_toStartOf="@+id/imageView2"
                         app:layout_constraintTop_toTopOf="@+id/imageView2"
                         app:srcCompat="@drawable/ic_pay" />
@@ -331,8 +324,10 @@
                         android:id="@+id/textView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
                         android:text="Bayar"
                         android:textColor="@color/white"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="@+id/imageView"
                         app:layout_constraintStart_toStartOf="@+id/imageView"
                         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -341,7 +336,7 @@
                         android:id="@+id/imageView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="48dp"
+                        android:layout_marginEnd="52dp"
                         app:layout_constraintEnd_toStartOf="@+id/imageView3"
                         app:layout_constraintTop_toTopOf="@+id/imageView3"
                         app:srcCompat="@drawable/ic_top_up" />
@@ -352,9 +347,10 @@
                         android:layout_height="wrap_content"
                         android:text="Isi Saldo"
                         android:textColor="@color/white"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="@+id/imageView2"
                         app:layout_constraintStart_toStartOf="@+id/imageView2"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+                        app:layout_constraintTop_toTopOf="@+id/textView" />
 
                     <ImageView
                         android:id="@+id/imageView3"
@@ -372,9 +368,10 @@
                         android:layout_height="wrap_content"
                         android:text="Eksplor"
                         android:textColor="@color/white"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="@+id/imageView3"
                         app:layout_constraintStart_toStartOf="@+id/imageView3"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+                        app:layout_constraintTop_toTopOf="@+id/textView2" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -411,7 +408,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardView5"
-                        android:layout_width="344dp"
+                        android:layout_width="352dp"
                         android:layout_height="170dp"
                         android:layout_marginEnd="16dp"
                         android:layout_marginBottom="2dp"
@@ -430,7 +427,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardView6"
-                        android:layout_width="344dp"
+                        android:layout_width="352dp"
                         android:layout_height="170dp"
                         android:layout_marginBottom="2dp"
                         android:clickable="true"
