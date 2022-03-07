@@ -11,8 +11,7 @@
         android:theme="@style/Theme.Challenge">
         <activity
             android:name="com.binar.challenge.gojek.GojekActivity"
-            android:exported="true"
-            android:windowSoftInputMode="adjustPan">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
