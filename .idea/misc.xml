@@ -7,6 +7,7 @@
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/bottom_navigation_two_selector.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_explore.xml" value="0.19166666666666668" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_gojek_name.xml" value="0.1638888888888889" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_home.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_orders.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_pay.xml" value="0.19166666666666668" />
@@ -14,7 +15,9 @@
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_right_arrow.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_search.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_top_up.xml" value="0.19166666666666668" />
-        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_gojek.xml" value="0.2775947281713344" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/splash_brand_logo.xml" value="0.19166666666666668" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_gojek.xml" value="0.22" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_splash.xml" value="0.16145833333333334" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
@@ -23,7 +26,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

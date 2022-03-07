@@ -10,12 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Challenge">
         <activity
-            android:name="com.binar.challenge.gojek.GojekActivity"
-            android:exported="true">
+            android:name=".gojek.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".gojek.GojekActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
     </application>
+
 </manifest>
