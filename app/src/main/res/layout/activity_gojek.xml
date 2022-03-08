@@ -72,7 +72,7 @@
                 <TextView
                     android:id="@+id/textView4"
                     style="@style/Text"
-                    android:text="GoRide"
+                    android:text="@string/go_ride"
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
                     app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -89,7 +89,7 @@
                 <TextView
                     android:id="@+id/textView5"
                     style="@style/Text"
-                    android:text="GoCar"
+                    android:text="@string/go_car"
                     app:layout_constraintEnd_toEndOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -108,7 +108,7 @@
                 <TextView
                     android:id="@+id/textView6"
                     style="@style/Text"
-                    android:text="GoFood"
+                    android:text="@string/go_food"
                     app:layout_constraintEnd_toEndOf="@+id/imageView6"
                     app:layout_constraintStart_toStartOf="@+id/imageView6"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6" />
@@ -125,7 +125,7 @@
                 <TextView
                     android:id="@+id/textView7"
                     style="@style/Text"
-                    android:text="GoSend"
+                    android:text="@string/go_send"
                     app:layout_constraintEnd_toEndOf="@+id/imageView7"
                     app:layout_constraintStart_toStartOf="@+id/imageView7"
                     app:layout_constraintTop_toBottomOf="@+id/imageView7" />
@@ -143,7 +143,7 @@
                 <TextView
                     android:id="@+id/textView8"
                     style="@style/Text"
-                    android:text="GoMart"
+                    android:text="@string/go_mart"
                     app:layout_constraintEnd_toEndOf="@+id/imageView8"
                     app:layout_constraintStart_toStartOf="@+id/imageView8"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8" />
@@ -160,7 +160,7 @@
                 <TextView
                     android:id="@+id/textView9"
                     style="@style/Text"
-                    android:text="GoPulsa"
+                    android:text="@string/go_pulsa"
                     app:layout_constraintEnd_toEndOf="@+id/imageView9"
                     app:layout_constraintStart_toStartOf="@+id/imageView9"
                     app:layout_constraintTop_toBottomOf="@+id/imageView9" />
@@ -177,7 +177,7 @@
                 <TextView
                     android:id="@+id/textView10"
                     style="@style/Text"
-                    android:text="Check in"
+                    android:text="@string/check_in"
                     app:layout_constraintEnd_toEndOf="@+id/imageView10"
                     app:layout_constraintStart_toStartOf="@+id/imageView10"
                     app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -195,7 +195,7 @@
                 <TextView
                     android:id="@+id/textView11"
                     style="@style/Text"
-                    android:text="Lainnya"
+                    android:text="@string/more"
                     app:layout_constraintEnd_toEndOf="@+id/imageView11"
                     app:layout_constraintStart_toStartOf="@+id/imageView11"
                     app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -240,7 +240,7 @@
                         android:layout_marginStart="80dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="4dp"
-                        android:text="193 XP lagi ada Harta Karun"
+                        android:text="@string/bar_xp"
                         app:layout_constraintBottom_toTopOf="@+id/progressBar"
                         app:layout_constraintStart_toEndOf="@+id/imageView12"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -262,7 +262,7 @@
                         android:id="@+id/textView13"
                         style="@style/Text.Black"
                         android:layout_marginTop="4dp"
-                        android:text="Harta karun bentar lagi hilang"
+                        android:text="@string/bar_desc"
                         android:textSize="12sp"
                         app:layout_constraintStart_toStartOf="@+id/textView12"
                         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
@@ -379,7 +379,7 @@
                         android:id="@+id/textView"
                         style="@style/Text.White.Bold"
                         android:layout_marginTop="4dp"
-                        android:text="Bayar"
+                        android:text="@string/pay"
                         app:layout_constraintEnd_toEndOf="@+id/imageView"
                         app:layout_constraintStart_toStartOf="@+id/imageView"
                         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -396,7 +396,7 @@
                     <TextView
                         android:id="@+id/textView2"
                         style="@style/Text.White.Bold"
-                        android:text="Isi Saldo"
+                        android:text="@string/top_up"
                         app:layout_constraintEnd_toEndOf="@+id/imageView2"
                         app:layout_constraintStart_toStartOf="@+id/imageView2"
                         app:layout_constraintTop_toTopOf="@+id/textView" />
@@ -414,7 +414,7 @@
                     <TextView
                         android:id="@+id/textView3"
                         style="@style/Text.White.Bold"
-                        android:text="Eksplor"
+                        android:text="@string/explore"
                         app:layout_constraintEnd_toEndOf="@+id/imageView3"
                         app:layout_constraintStart_toStartOf="@+id/imageView3"
                         app:layout_constraintTop_toTopOf="@+id/textView2" />
@@ -428,7 +428,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Akses cepat"
+                android:text="@string/quick_access"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -521,7 +521,7 @@
                         android:id="@+id/textView15"
                         style="@style/Text"
                         android:layout_marginStart="16dp"
-                        android:text="Ada voucher nganggur, nih"
+                        android:text="@string/title_voucher"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
                         app:layout_constraintStart_toEndOf="@+id/imageView14"
                         app:layout_constraintTop_toTopOf="@+id/imageView14" />
@@ -562,7 +562,7 @@
                         android:id="@+id/textView16"
                         style="@style/Text"
                         android:layout_marginStart="16dp"
-                        android:text="Restoran Terdekat"
+                        android:text="@string/title_restaurant"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView16"
                         app:layout_constraintStart_toEndOf="@+id/imageView16"
                         app:layout_constraintTop_toTopOf="@+id/imageView16" />
@@ -617,7 +617,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="16dp"
-                        android:text="Festival Idaman Perempuan"
+                        android:text="@string/ads_title"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -632,7 +632,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
                         android:layout_marginBottom="16dp"
-                        android:text="Temukan kebutuhan cantik-mu hemat pakai Gopay dengan cashback 50%. Klik"
+                        android:text="@string/ads_desc"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
