@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/gojek_font</item>
     </style>
 
     <!-- Text Style   -->
@@ -45,7 +46,7 @@
     <style name="NavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
         <item name="itemTextAppearanceActive">@color/black</item>
     </style>
-
+    
     <!-- Splash Screen -->
     <style name="SplashScreenStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_brand_logo</item>
