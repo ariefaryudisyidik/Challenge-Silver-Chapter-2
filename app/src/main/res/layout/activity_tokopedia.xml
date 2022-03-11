@@ -10,7 +10,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
         android:layout_height="120dp"
-        android:background="@color/green"
+        android:background="@color/lightgreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
             android:background="@drawable/bg_round"
             android:iconifiedByDefault="false"
             android:queryBackground="@android:color/transparent"
-            android:queryHint="Cari layanan, makanan, &amp; tujuan"
+            android:queryHint="Cari lampu tidur"
             android:searchIcon="@drawable/ic_search"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -39,7 +39,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/sv_home"
             app:layout_constraintStart_toEndOf="@+id/sv_home"
             app:layout_constraintTop_toTopOf="@+id/sv_home"
-            app:srcCompat="@android:drawable/ic_menu_search" />
+            app:srcCompat="@drawable/ic_inbox" />
 
         <ImageView
             android:id="@+id/imageView23"
@@ -49,7 +49,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/imageView20"
             app:layout_constraintStart_toEndOf="@+id/imageView20"
             app:layout_constraintTop_toTopOf="@+id/imageView20"
-            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+            app:srcCompat="@drawable/ic_notification" />
 
         <ImageView
             android:id="@+id/imageView24"
@@ -59,7 +59,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/imageView23"
             app:layout_constraintStart_toEndOf="@+id/imageView23"
             app:layout_constraintTop_toTopOf="@+id/imageView23"
-            app:srcCompat="@android:drawable/checkbox_off_background" />
+            app:srcCompat="@drawable/ic_checkout" />
 
         <ImageView
             android:id="@+id/imageView25"
@@ -69,7 +69,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/imageView24"
             app:layout_constraintStart_toEndOf="@+id/imageView24"
             app:layout_constraintTop_toTopOf="@+id/imageView24"
-            app:srcCompat="@android:drawable/ic_menu_gallery" />
+            app:srcCompat="@drawable/ic_main_menu" />
 
         <ImageView
             android:id="@+id/imageView26"
@@ -79,14 +79,15 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sv_home"
-            app:srcCompat="@android:drawable/ic_menu_mylocation" />
+            app:srcCompat="@drawable/ic_pin" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="TextView"
+            android:text="Dikirim ke Rumah"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/imageView26"
             app:layout_constraintStart_toEndOf="@+id/imageView26"
             app:layout_constraintTop_toTopOf="@+id/imageView26" />
@@ -127,31 +128,27 @@
                         android:id="@+id/textView20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:text="TextView"
+                        android:text="GoPay Coins"
                         app:layout_constraintBottom_toTopOf="@+id/textView21"
-                        app:layout_constraintStart_toEndOf="@+id/imageView32"
-                        app:layout_constraintTop_toTopOf="@+id/imageView32" />
+                        app:layout_constraintStart_toEndOf="@+id/imageView32" />
 
                     <TextView
                         android:id="@+id/textView21"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:text="TextView"
-                        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
-                        app:layout_constraintStart_toEndOf="@+id/imageView32"
+                        android:layout_width="78dp"
+                        android:layout_height="14dp"
+                        android:text="1.500 Coins"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                        app:layout_constraintEnd_toEndOf="@+id/textView20"
+                        app:layout_constraintStart_toStartOf="@+id/textView20"
                         app:layout_constraintTop_toTopOf="@+id/imageView32" />
 
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:text="TextView"
+                        android:text="Member Silver"
                         app:layout_constraintBottom_toTopOf="@+id/textView22"
-                        app:layout_constraintStart_toEndOf="@+id/imageView33"
-                        app:layout_constraintTop_toTopOf="@+id/imageView33" />
+                        app:layout_constraintStart_toEndOf="@+id/imageView33" />
 
                     <ImageView
                         android:id="@+id/imageView32"
@@ -161,7 +158,7 @@
                         app:layout_constraintBottom_toBottomOf="@+id/imageView31"
                         app:layout_constraintStart_toStartOf="@+id/imageView31"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ic_promos_color" />
+                        app:srcCompat="@drawable/ic_gopay" />
 
                     <ImageView
                         android:id="@+id/imageView33"
@@ -171,16 +168,16 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/textView21"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ic_gojek" />
+                        app:srcCompat="@drawable/ic_emblem" />
 
                     <TextView
                         android:id="@+id/textView22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:text="TextView"
-                        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
-                        app:layout_constraintStart_toEndOf="@+id/imageView33"
+                        android:text="10 Kupon baru"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+                        app:layout_constraintEnd_toEndOf="@+id/textView23"
+                        app:layout_constraintStart_toStartOf="@+id/textView23"
                         app:layout_constraintTop_toTopOf="@+id/imageView33" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -198,79 +195,153 @@
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
 
                         <ImageView
                             android:id="@+id/imageView41"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_official_store" />
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Official Store"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView41"
+                            app:layout_constraintStart_toStartOf="@+id/imageView41"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView41" />
 
                         <ImageView
                             android:id="@+id/imageView43"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView44"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_daily_necessities" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lihat Semua"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView44"
+                            app:layout_constraintStart_toStartOf="@+id/imageView44"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView44" />
 
                         <ImageView
                             android:id="@+id/imageView45"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView43"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_electronic" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kebutuhan Harian"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView43"
+                            app:layout_constraintStart_toStartOf="@+id/imageView43"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView43" />
 
                         <ImageView
                             android:id="@+id/imageView46"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView45"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_party_supplies" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Electronic"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView45"
+                            app:layout_constraintStart_toStartOf="@+id/imageView45"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView45" />
 
                         <ImageView
                             android:id="@+id/imageView48"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView46"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_office_and_stationery" />
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Perlengkapan Pesta"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView46"
+                            app:layout_constraintStart_toStartOf="@+id/imageView46"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView46" />
 
                         <ImageView
                             android:id="@+id/imageView49"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView48"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_finance" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Office & Stationery"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView48"
+                            app:layout_constraintStart_toStartOf="@+id/imageView48"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView48" />
 
                         <ImageView
                             android:id="@+id/imageView50"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView49"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_travel_entertainment" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Keuangan"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView49"
+                            app:layout_constraintStart_toStartOf="@+id/imageView49"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView49" />
 
                         <ImageView
                             android:id="@+id/imageView44"
-                            android:layout_width="40dp"
-                            android:layout_height="36dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView41"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_food" />
+                            app:srcCompat="@drawable/ic_view_all" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Travel&Entertaiment"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView50"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="@+id/imageView50"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView50" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </LinearLayout>
@@ -284,109 +355,171 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
 
                         <ImageView
                             android:id="@+id/imageView51"
-                            android:layout_width="216dp"
-                            android:layout_height="154dp"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
                             android:layout_marginStart="8dp"
+                            android:scaleType="fitXY"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/img_gopay_ads" />
+                            app:srcCompat="@drawable/img_ads_tokopedia_one" />
 
                         <ImageView
                             android:id="@+id/imageView52"
-                            android:layout_width="216dp"
-                            android:layout_height="154dp"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
                             android:layout_marginStart="8dp"
+                            android:scaleType="fitXY"
                             app:layout_constraintStart_toEndOf="@+id/imageView51"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/img_gopay_ads" />
+                            app:srcCompat="@drawable/img_ads_tokopedia_two" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </HorizontalScrollView>
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="92dp"
                 android:layout_marginTop="8dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp">
 
                         <ImageView
                             android:id="@+id/imageView53"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="40dp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_peduli_lindungi" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Peduli Lindungi"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView53"
+                            app:layout_constraintStart_toStartOf="@+id/imageView53"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView53" />
 
                         <ImageView
                             android:id="@+id/imageView54"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="40dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView53"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_bazaar" />
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bazzar hari ini"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView54"
+                            app:layout_constraintStart_toStartOf="@+id/imageView54"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView54" />
 
                         <ImageView
                             android:id="@+id/imageView55"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="40dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView54"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_live_shooping" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Live shooping"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView55"
+                            app:layout_constraintStart_toStartOf="@+id/imageView55"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView55" />
 
                         <ImageView
                             android:id="@+id/imageView56"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="40dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView57"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_local_proud" />
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tokopedia seru"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView57"
+                            app:layout_constraintStart_toStartOf="@+id/imageView57"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView57" />
 
                         <ImageView
                             android:id="@+id/imageView58"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="32dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView56"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_cod" />
 
                         <ImageView
-                            android:id="@+id/imageView59"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
-                            app:layout_constraintStart_toEndOf="@+id/imageView58"
+                            android:id="@+id/imageView64"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginEnd="40dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView56"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_cod" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bangga lokal"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView56"
+                            app:layout_constraintStart_toStartOf="@+id/imageView56"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView56" />
 
                         <ImageView
                             android:id="@+id/imageView57"
-                            android:layout_width="48dp"
-                            android:layout_height="43dp"
-                            android:layout_marginStart="16dp"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="40dp"
                             app:layout_constraintStart_toEndOf="@+id/imageView55"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/ic_go_ride" />
+                            app:srcCompat="@drawable/ic_tokopedia_seru" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bayar di tempat"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView58"
+                            app:layout_constraintStart_toStartOf="@+id/imageView58"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView58" />
+
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </HorizontalScrollView>
@@ -403,30 +536,22 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:id="@+id/textView28"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:text="TextView"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
                         android:id="@+id/textView29"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:text="TextView"
+                        android:layout_marginStart="8dp"
+                        android:text="Video menarik untukmu"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/textView30"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
+                        android:layout_marginEnd="8dp"
                         android:layout_marginBottom="3dp"
-                        android:text="TextView"
+                        android:text="Lihat Semua"
+                        android:textColor="@color/green"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -446,8 +571,8 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="16dp"
-                        android:background="#00B0FF">
+                        android:background="#00B0FF"
+                        tools:layout_editor_absoluteY="16dp">
 
                         <ImageView
                             android:id="@+id/imageView60"

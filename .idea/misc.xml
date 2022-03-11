@@ -10,7 +10,6 @@
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_go_send.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_gojek.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_gojek_name.xml" value="0.1638888888888889" />
-        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_gopay.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_home.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_orders.xml" value="0.19166666666666668" />
@@ -29,8 +28,10 @@
         <entry key="..\:/Project/Android Studio/ChallengeChapterTwo/app/src/main/res/layout/activity_gojek.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/ChallengeChapterTwo/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/drawable/ic_go_car.xml" value="0.3635" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/drawable/ic_tokopedia_seru.xml" value="0.1935" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/drawable/ic_top_up.xml" value="0.1935" />
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/layout/activity_gojek.xml" value="0.33" />
-        <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/layout/activity_tokopedia.xml" value="0.2761830876648565" />
+        <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/layout/activity_tokopedia.xml" value="0.33" />
       </map>
     </option>
   </component>
