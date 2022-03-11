@@ -46,10 +46,15 @@
     <style name="NavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
         <item name="itemTextAppearanceActive">@color/black</item>
     </style>
-    
+
     <!-- Splash Screen -->
-    <style name="SplashScreenStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_brand_logo</item>
+    <style name="GojekSplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_gojek_logo</item>
         <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+    </style>
+
+    <style name="TokopediaSplashScreen" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_tokopedia_logo</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/green_tokopedia</item>
     </style>
 </resources>

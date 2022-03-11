@@ -16,5 +16,6 @@
     <color name="black_2">#4a4b4b</color>
 
     <!-- Tokopedia -->
-    <color name="lightgreen">#21ce7e</color>
+    <color name="green_tokopedia">#007437</color>
+    <color name="green_tokopedia_2">#21ce7e</color>
 </resources>
