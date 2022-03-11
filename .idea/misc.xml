@@ -19,14 +19,20 @@
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_search.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/ic_top_up.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/splash_brand_logo.xml" value="0.19166666666666668" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/splash_gojek_logo.xml" value="0.19166666666666668" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/drawable/splash_tokopedia_logo.xml" value="0.19166666666666668" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/font/font.xml" value="0.20572916666666666" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_gojek.xml" value="0.4466666666666667" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_gojek_splash.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_splash.xml" value="0.16145833333333334" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_tokopedia.xml" value="0.16666666666666666" />
+        <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/layout/activity_tokopedia_splash.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/Challenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Project/Android Studio/ChallengeChapterTwo/app/src/main/res/layout/activity_gojek.xml" value="0.17552083333333332" />
         <entry key="..\:/Project/Android Studio/ChallengeChapterTwo/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+<<<<<<< HEAD
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/drawable/ic_checkout.xml" value="0.3635" />
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/drawable/ic_go_car.xml" value="0.3635" />
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/drawable/ic_inbox.xml" value="0.3635" />
@@ -37,6 +43,8 @@
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/layout/activity_gojek.xml" value="0.33" />
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/layout/activity_tokopedia.xml" value="0.33" />
         <entry key="..\:/Users/adity/AndroidStudioProjects/Challenge-Silver-Chapter-2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+=======
+>>>>>>> 8ffb0c3235e43dad3b211bace0d8ad51914bf16a
       </map>
     </option>
   </component>
